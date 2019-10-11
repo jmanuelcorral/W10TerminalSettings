@@ -167,7 +167,10 @@
                 "keys": [
                     "alt+9"
                 ]
-            }
+            },
+            { "command": "closeWindow", "keys": ["alt+f4"] },
+            { "command": "splitHorizontal", "keys": ["ctrl+shift+down"]},
+            { "command": "splitVertical", "keys": ["ctrl+shift+right"]}
         ],
         "requestedTheme": "system",
         "showTabsInTitlebar": true,
